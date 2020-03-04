@@ -13,9 +13,9 @@ Wichtige Befehle wie: #restart oder #shutdown
 ## Server config
 Default Server config: [[Config](https://community.bistudio.com/wiki/server.cfg)]
 # add Mission
-> class Missions {
-	>class CustomMap{
-	    >template="FBI-Server.Altis";
-	    >difficulty="";
-	>};
->};
+ class Missions {
+	class CustomMap{
+	    template="FBI-Server.Altis";
+	    difficulty="";
+	};
+};
