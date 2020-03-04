@@ -7,3 +7,5 @@ Wichtige Befehle wie: #restart oder #shutdown
 
 ## Start file
 >Example 1. : screen -S ARMA3 ./arma3server -config=server.cfg   
+>Example 2. : screen -S ARMA3 ./arma3server -config=server.cfg  -mod=@ace\;@CBA_A3\;@task_force_radio\;@CUP\ Units\;@CUP\ Vehicles\;@CUP\ Weapons\;
+
