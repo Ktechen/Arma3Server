@@ -2,7 +2,7 @@
 Arma 3 Server configurations
 
 ## Server configuration
-Most importans commands wie: #restart oder #shutdown
+Most important commands like: #restart oder #shutdown
 [[Commands](https://community.bistudio.com/wiki/Multiplayer_Server_Commands)]
 
 ## Start file
