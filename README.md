@@ -15,10 +15,11 @@ Most important commands like: #restart oder #shutdown
 Default Server config: [[Config](https://community.bistudio.com/wiki/server.cfg)]
 
 ### add Mission
-
->Example: class Missions {
+```sqf
+Example: class Missions {
 	class CustomMap{
 	    template="FBI-Server.Altis";
 	    difficulty="";
 	};
 };
+```
