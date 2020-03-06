@@ -30,3 +30,5 @@ class Missions {
 	};
 };
 ```
+## Script Event
+Events: [[Events](https://community.bistudio.com/wiki/Event_Scripts)]
