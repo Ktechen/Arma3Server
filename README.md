@@ -1,3 +1,4 @@
+#The is only for Linux
 # Arma3Server
 Arma 3 Server configurations
 
