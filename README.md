@@ -34,7 +34,7 @@ class Missions {
 Events: [[Events](https://community.bistudio.com/wiki/Event_Scripts)]
 
 ## Close Arma Server
-you can use: 
+Linux: 
 ```shell
 ps u
 ```
