@@ -36,7 +36,9 @@ Events: [[Events](https://community.bistudio.com/wiki/Event_Scripts)]
 ## Close Arma Server
 ### Linux: 
 Commands:
+
 ```shell
  ps u
 ```
+
 
