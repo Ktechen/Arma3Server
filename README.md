@@ -42,7 +42,7 @@ Commands:
 ```
 ![alt text](https://github.com/Ktechen/Arma3Server/blob/master/picture/ps-u.PNG)
 
-## Kill PID#
+### Kill PID
 
 ```shell
 kill 10253
