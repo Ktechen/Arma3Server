@@ -40,5 +40,5 @@ Commands:
 ```shell
  ps u
 ```
-![](/picture/ps-u.png)
+(/picture/ps-u.png)
 
