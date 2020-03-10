@@ -35,12 +35,13 @@ Events: [[Events](https://community.bistudio.com/wiki/Event_Scripts)]
 
 ## Close Arma Server
 
-## open processes
+### open processes
 
 ```shell
  ps u
 ```
-![alt text](https://github.com/Ktechen/Arma3Server/blob/master/picture/ps-u.PNG)
+
+![loading...](https://github.com/Ktechen/Arma3Server/blob/master/picture/ps-u.PNG)
 
 ### Kill PID
 
