@@ -40,5 +40,5 @@ Commands:
 ```shell
  ps u
 ```
-(/picture/ps-u.png)
+![alt text](https://github.com/Ktechen/Arma3Server/blob/master/picture/ps-u.PNG)
 
