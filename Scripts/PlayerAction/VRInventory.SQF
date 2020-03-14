@@ -1,4 +1,5 @@
-this addAction ["Add Inventory to Scrollbar", {
- 	player addAction ["Inventory", {["Open", true] spawn BIS_fnc_arsenal;}];
-}];
-
+this addAction ["Inventory", { 
+  player addAction ["VR-Inventory", {["Open", true] spawn BIS_fnc_arsenal;}]; 
+}]; 
+  
+this allowDamage false;
