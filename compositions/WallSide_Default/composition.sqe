@@ -1,0 +1,134 @@
+version=53;
+center[]={4718.8569,2.5999999,8625.0254};
+class items
+{
+	items=8;
+	class Item0
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={-0.24853516,0.40966177,0.20898438};
+			angles[]={0,0.24256612,0};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+		};
+		id=1847;
+		type="Land_BagFence_End_F";
+	};
+	class Item1
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={0.33642578,0.40966177,-0.14941406};
+			angles[]={0,4.0460701,0};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+		};
+		id=1848;
+		type="Land_BagFence_End_F";
+	};
+	class Item2
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={0.34667969,1.0641484,-0.16503906};
+			angles[]={0,4.0460701,0};
+		};
+		side="Empty";
+		class Attributes
+		{
+		};
+		id=1849;
+		type="Land_BagFence_End_F";
+		atlOffset=0.65448666;
+	};
+	class Item3
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={-0.28076172,1.0641484,0.22851563};
+			angles[]={0,0.2733435,0};
+		};
+		side="Empty";
+		class Attributes
+		{
+		};
+		id=1850;
+		type="Land_BagFence_End_F";
+		atlOffset=0.65448666;
+	};
+	class Item4
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={0.20019531,1.6736217,-0.26757813};
+			angles[]={0,4.0208387,0};
+		};
+		side="Empty";
+		class Attributes
+		{
+		};
+		id=1851;
+		type="Land_BagFence_End_F";
+		atlOffset=1.2639599;
+	};
+	class Item5
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={-0.28710938,1.6736217,0.22949219};
+			angles[]={0,0.21849832,0};
+		};
+		side="Empty";
+		class Attributes
+		{
+		};
+		id=1852;
+		type="Land_BagFence_End_F";
+		atlOffset=1.2639599;
+	};
+	class Item6
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={0.25048828,2.1785231,-0.31640625};
+			angles[]={0,4.0208387,0};
+		};
+		side="Empty";
+		class Attributes
+		{
+		};
+		id=1853;
+		type="Land_BagFence_End_F";
+		atlOffset=1.7688613;
+	};
+	class Item7
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={-0.31689453,2.1785231,0.23046875};
+			angles[]={0,0.24738295,0};
+		};
+		side="Empty";
+		class Attributes
+		{
+		};
+		id=1854;
+		type="Land_BagFence_End_F";
+		atlOffset=1.7688613;
+	};
+};

@@ -1,0 +1,150 @@
+version=53;
+center[]={4555.481,2.5157399,8647.6162};
+class items
+{
+	items=9;
+	class Item0
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={3.1206055,0.83932686,2.0537109};
+			angles[]={0,0.14235176,0};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+		};
+		id=1906;
+		type="Land_Razorwire_F";
+	};
+	class Item1
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={2.7084961,0.50779629,0.109375};
+			angles[]={0.0026520467,0.15364414,6.2805333};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+		};
+		id=1910;
+		type="Land_BagFence_Long_F";
+	};
+	class Item2
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={5.2670898,1.0647883,-2.0458984};
+			angles[]={0.015998369,3.2266591,6.2618566};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+		};
+		id=1914;
+		type="Land_BagBunker_Small_F";
+	};
+	class Item3
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={-1.1962891,5.0127015,-3.3115234};
+			angles[]={0,3.2888949,0};
+		};
+		side="Empty";
+		flags=5;
+		class Attributes
+		{
+		};
+		id=1915;
+		type="Land_Cargo_Patrol_V1_F";
+	};
+	class Item4
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={-1.8408203,1.779634,-2.2753906};
+			angles[]={6.2677603,3.3161132,0.00056543108};
+		};
+		side="Empty";
+		flags=5;
+		class Attributes
+		{
+		};
+		id=1923;
+		type="Land_Mil_WallBig_4m_battered_F";
+	};
+	class Item5
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={-1.4150391,0.84153414,2.8056641};
+			angles[]={0.0026520467,0.14235176,0};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+		};
+		id=1926;
+		type="Land_Razorwire_F";
+	};
+	class Item6
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={-4.2851563,0.41931152,1.1767578};
+			angles[]={0.0080009829,0.15370405,0.010664274};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+		};
+		id=1927;
+		type="Land_BagFence_Long_F";
+	};
+	class Item7
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={-0.052734375,0.50933647,0.57714844};
+			angles[]={6.2671871,0.15364414,0.018663859};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+		};
+		id=1929;
+		type="Land_BagFence_Long_F";
+	};
+	class Item8
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={-2.3105469,0.47258377,0.9140625};
+			angles[]={6.2671871,0.15364414,0.018663859};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+		};
+		id=1930;
+		type="Land_BagFence_Long_F";
+	};
+};

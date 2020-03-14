@@ -1,0 +1,490 @@
+version=53;
+center[]={10069.537,409.87,11789.815};
+class items
+{
+	items=14;
+	class Item0
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={-1.3935547,0.41156006,-8.5761719};
+			angles[]={-0,1.6174526,0};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+			init="this allowDamage false;";
+			disableSimulation=1;
+		};
+		id=0;
+		type="Land_CampingTable_F";
+		class CustomAttributes
+		{
+			class Attribute0
+			{
+				property="allowDamage";
+				expression="_this allowdamage _value;";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"BOOL"
+							};
+						};
+						value=0;
+					};
+				};
+			};
+			nAttributes=1;
+		};
+	};
+	class Item1
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={0.30664063,0.48379517,-9.4882813};
+			angles[]={-0,5.3907409,0};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+			init="call{this allowDamage false;}";
+			disableSimulation=1;
+		};
+		id=1;
+		type="Land_ArmChair_01_F";
+		class CustomAttributes
+		{
+			class Attribute0
+			{
+				property="allowDamage";
+				expression="_this allowdamage _value;";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"BOOL"
+							};
+						};
+						value=0;
+					};
+				};
+			};
+			nAttributes=1;
+		};
+	};
+	class Item2
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={-1.3710938,1.7836914,-8.1386719};
+			angles[]={0,1.6851907,0};
+		};
+		side="Empty";
+		class Attributes
+		{
+			init="call{this allowDamage false; 0 = [""AmmoboxInit"",[this,true]] spawn BIS_fnc_arsenal; if(isServer) then { player addAction [""God mods"", {player allowdamage false;}]; };}";
+			name="virutall_inventorie_14";
+			disableSimulation=1;
+		};
+		id=2;
+		type="Land_Laptop_unfolded_F";
+		atlOffset=0.81201172;
+		class CustomAttributes
+		{
+			class Attribute0
+			{
+				property="allowDamage";
+				expression="_this allowdamage _value;";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"BOOL"
+							};
+						};
+						value=0;
+					};
+				};
+			};
+			nAttributes=1;
+		};
+	};
+	class Item3
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={-1.3515625,1.7834167,-9.0361328};
+			angles[]={0,0.9028796,0};
+		};
+		side="Empty";
+		class Attributes
+		{
+			init="call{this allowDamage false; 0 = [""AmmoboxInit"",[this,true]] spawn BIS_fnc_arsenal;}";
+		};
+		id=3;
+		type="Land_Laptop_device_F";
+		atlOffset=0.81173706;
+	};
+	class Item4
+	{
+		dataType="Logic";
+		class PositionInfo
+		{
+			position[]={4.4707031,0.0056762695,-1.9404297};
+			angles[]={0.0026703537,0.23623031,0};
+		};
+		id=4;
+		type="ModuleRespawnPosition_F";
+		class CustomAttributes
+		{
+			class Attribute0
+			{
+				property="ModuleRespawnPosition_F_Marker";
+				expression="_this setVariable ['Marker',_value,true];";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"STRING"
+							};
+						};
+						value="0";
+					};
+				};
+			};
+			class Attribute1
+			{
+				property="ModuleRespawnPosition_F_Name";
+				expression="_this setVariable ['Name',_value,true];";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"STRING"
+							};
+						};
+						value="Alpha";
+					};
+				};
+			};
+			class Attribute2
+			{
+				property="ModuleRespawnPosition_F_Side";
+				expression="_this setVariable ['Side',_value,true];";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"STRING"
+							};
+						};
+						value="1";
+					};
+				};
+			};
+			class Attribute3
+			{
+				property="ModuleRespawnPosition_F_ShowNotification";
+				expression="_this setVariable ['ShowNotification',_value,true];";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"STRING"
+							};
+						};
+						value="1";
+					};
+				};
+			};
+			class Attribute4
+			{
+				property="ModuleRespawnPosition_F_Type";
+				expression="_this setVariable ['Type',_value,true];";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"STRING"
+							};
+						};
+						value="0";
+					};
+				};
+			};
+			nAttributes=5;
+		};
+	};
+	class Item5
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={-0.083984375,3.5426331,6.2246094};
+			angles[]={0,0.23623586,-0};
+		};
+		side="Empty";
+		flags=1;
+		class Attributes
+		{
+		};
+		id=5;
+		type="VR_3DSelector_01_exit_F";
+		atlOffset=2.4936218;
+	};
+	class Item6
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={-0.67382813,0.41156006,6.5585938};
+			angles[]={-0,1.6174544,0};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+			init="this allowDamage false;";
+			disableSimulation=1;
+		};
+		id=6;
+		type="Land_CampingTable_F";
+		class CustomAttributes
+		{
+			class Attribute0
+			{
+				property="allowDamage";
+				expression="_this allowdamage _value;";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"BOOL"
+							};
+						};
+						value=0;
+					};
+				};
+			};
+			nAttributes=1;
+		};
+	};
+	class Item7
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={-0.94824219,3.5429993,-9.2402344};
+			angles[]={0,0.23623586,-0};
+		};
+		side="Empty";
+		flags=1;
+		class Attributes
+		{
+		};
+		id=7;
+		type="VR_3DSelector_01_exit_F";
+		atlOffset=2.493988;
+	};
+	class Item8
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={-0.58496094,0.97207642,6.0166016};
+			angles[]={0,1.6851852,0};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+			init="call{this addAction [""Inventory"", {  " \n "  player addAction [""VR-Inventory"", {[""Open"", true] spawn BIS_fnc_arsenal;}];  " \n "}];  " \n "   " \n "this allowDamage false;" \n "}";
+			name="virutall_inventorie_39";
+			disableSimulation=1;
+		};
+		id=8;
+		type="Land_Laptop_unfolded_F";
+		atlOffset=0.00039672852;
+		class CustomAttributes
+		{
+			class Attribute0
+			{
+				property="allowDamage";
+				expression="_this allowdamage _value;";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"BOOL"
+							};
+						};
+						value=0;
+					};
+				};
+			};
+			nAttributes=1;
+		};
+	};
+	class Item9
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={-0.36816406,0.96887207,8.5625};
+			angles[]={-0,5.3004861,0};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+			init="call{this allowDamage false; this addAction [""Remove All Actions"", {  " \n " removeAllActions player; " \n "}]; }";
+		};
+		id=9;
+		type="MapBoard_stratis_F";
+	};
+	class Item10
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={-0.051757813,0.50650024,6.0351563};
+			angles[]={-0,1.7153505,0};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+			init="call{this allowDamage false;}";
+		};
+		id=10;
+		type="Land_CampingChair_V2_F";
+	};
+	class Item11
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={-0.109375,0.50650024,7.0458984};
+			angles[]={-0,1.3385553,0};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+			init="call{this allowDamage false;}";
+		};
+		id=11;
+		type="Land_CampingChair_V2_F";
+	};
+	class Item12
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={-0.55273438,0.97207642,7.046875};
+			angles[]={0,1.6851852,0};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+			init="call{this allowDamage false; " \n " " \n "player removeAction 0; " \n "player removeAction _onMod; " \n "player removeAction _offMod; " \n " " \n "this addAction [""GodMod"", { " \n "  _name = name player; " \n "  _call = player sideChat ""Der Spieler "" + _name + "" hat GodMod hinzugefügt""; " \n " " \n "  _onMod = player addAction [""Godmod On"", { " \n "    hint ""GodMod On""; " \n "    player allowDamage false; " \n "  }]; " \n " " \n "  _offMode = player addAction [""Godmod Off"", { " \n "    hint ""GodMod Off""; " \n "    player allowDamage true; " \n "  }]; " \n " " \n "}];}";
+			name="virutall_inventorie_40";
+			disableSimulation=1;
+		};
+		id=12;
+		type="Land_Laptop_unfolded_F";
+		atlOffset=0.00039672852;
+		class CustomAttributes
+		{
+			class Attribute0
+			{
+				property="allowDamage";
+				expression="_this allowdamage _value;";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"BOOL"
+							};
+						};
+						value=0;
+					};
+				};
+			};
+			nAttributes=1;
+		};
+	};
+	class Item13
+	{
+		dataType="Trigger";
+		position[]={2.7070313,0.0033569336,-1.078125};
+		angle=0.048851766;
+		class Attributes
+		{
+			condition="call{this}";
+			onActivation="call{this allowDamage false;}";
+			onDeactivation="call{this allowDamage true;}";
+			sizeA=10;
+			sizeB=10;
+			sizeC=5;
+			repeatable=1;
+			activationBy="WEST";
+			type="WEST G";
+			isRectangle=1;
+		};
+		id=13;
+		type="EmptyDetectorArea10x10";
+	};
+};

@@ -1,0 +1,149 @@
+version=53;
+center[]={6945.1572,2.6600001,7428.6509};
+class items
+{
+	items=1;
+	class Item0
+	{
+		dataType="Logic";
+		id=39;
+		type="tfar_ModuleTaskForceRadioEnforceUsage";
+		class CustomAttributes
+		{
+			class Attribute0
+			{
+				property="tfar_ModuleTaskForceRadioEnforceUsage_radio_channel_password";
+				expression="_this setVariable ['radio_channel_password',_value,true];";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"STRING"
+							};
+						};
+						value="1234567890";
+					};
+				};
+			};
+			class Attribute1
+			{
+				property="tfar_ModuleTaskForceRadioEnforceUsage_RiflemanRadio";
+				expression="_this setVariable ['RiflemanRadio',_value,true];";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"BOOL"
+							};
+						};
+						value=1;
+					};
+				};
+			};
+			class Attribute2
+			{
+				property="tfar_ModuleTaskForceRadioEnforceUsage_radio_channel_name";
+				expression="_this setVariable ['radio_channel_name',_value,true];";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"STRING"
+							};
+						};
+						value="Arma3-TFR";
+					};
+				};
+			};
+			class Attribute3
+			{
+				property="tfar_ModuleTaskForceRadioEnforceUsage_same_sw_frequencies_for_side";
+				expression="_this setVariable ['same_sw_frequencies_for_side',_value,true];";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"BOOL"
+							};
+						};
+						value=1;
+					};
+				};
+			};
+			class Attribute4
+			{
+				property="tfar_ModuleTaskForceRadioEnforceUsage_TeamLeaderRadio";
+				expression="_this setVariable ['TeamLeaderRadio',_value,true];";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"BOOL"
+							};
+						};
+						value=0;
+					};
+				};
+			};
+			class Attribute5
+			{
+				property="tfar_ModuleTaskForceRadioEnforceUsage_same_lr_frequencies_for_side";
+				expression="_this setVariable ['same_lr_frequencies_for_side',_value,true];";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"BOOL"
+							};
+						};
+						value=1;
+					};
+				};
+			};
+			class Attribute6
+			{
+				property="tfar_ModuleTaskForceRadioEnforceUsage_terrain_interception_coefficient";
+				expression="_this setVariable ['terrain_interception_coefficient',_value,true];";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"SCALAR"
+							};
+						};
+						value=7;
+					};
+				};
+			};
+			nAttributes=7;
+		};
+	};
+};

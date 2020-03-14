@@ -1,0 +1,87 @@
+version=53;
+center[]={4583.7422,2.5999999,8644.8037};
+class items
+{
+	items=5;
+	class Item0
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={0.11572266,0.75506687,1.5996094};
+			angles[]={0,0.14235176,0};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+		};
+		id=1746;
+		type="Land_Razorwire_F";
+	};
+	class Item1
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={-0.057617188,1.7888265,0.030273438};
+			angles[]={0,3.2858133,0};
+		};
+		side="Empty";
+		flags=5;
+		class Attributes
+		{
+		};
+		id=1747;
+		type="Land_Mil_WiredFence_F";
+	};
+	class Item2
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={-2.934082,0.41931152,-0.11132813};
+			angles[]={0,0.15370405,0};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+		};
+		id=1748;
+		type="Land_BagFence_Long_F";
+	};
+	class Item3
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={-0.009765625,0.41931152,-0.54785156};
+			angles[]={0,0.15369982,0};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+		};
+		id=1749;
+		type="Land_BagFence_Long_F";
+		atlOffset=2.3841858e-007;
+	};
+	class Item4
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={2.8847656,0.41931152,-0.97363281};
+			angles[]={0,0.15364414,0};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+		};
+		id=1750;
+		type="Land_BagFence_Long_F";
+	};
+};
