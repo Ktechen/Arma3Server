@@ -1,0 +1,150 @@
+version=53;
+center[]={11654.692,4.6900001,3044.1702};
+class items
+{
+	items=9;
+	class Item0
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={-4.1914063,1.0853229,3.2814941};
+			angles[]={0,0.65024728,-0};
+		};
+		side="Empty";
+		flags=5;
+		class Attributes
+		{
+		};
+		id=565;
+		type="Land_New_WiredFence_pole_F";
+	};
+	class Item1
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={-1.0673828,0.41931152,1.0593262};
+			angles[]={-0,0.68173152,0};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+		};
+		id=568;
+		type="Land_BagFence_Long_F";
+	};
+	class Item2
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={-2.4101563,1.0924516,1.340332};
+			angles[]={0,3.8216853,-0};
+		};
+		side="Empty";
+		flags=5;
+		class Attributes
+		{
+		};
+		id=571;
+		type="Land_New_WiredFence_5m_F";
+	};
+	class Item3
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={1.4804688,1.0924516,-1.8012695};
+			angles[]={0,3.8216853,-0};
+		};
+		side="Empty";
+		flags=5;
+		class Attributes
+		{
+		};
+		id=572;
+		type="Land_New_WiredFence_5m_F";
+	};
+	class Item4
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={-1.0820313,1.1457601,1.0576172};
+			angles[]={0,0.68173176,0};
+		};
+		side="Empty";
+		class Attributes
+		{
+		};
+		id=573;
+		type="Land_BagFence_Long_F";
+		atlOffset=0.72644854;
+	};
+	class Item5
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={-1.0722656,1.5967569,1.0551758};
+			angles[]={0,0.68173176,0};
+		};
+		side="Empty";
+		class Attributes
+		{
+		};
+		id=574;
+		type="Land_BagFence_Long_F";
+		atlOffset=1.1774454;
+	};
+	class Item6
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={2.7871094,0.41931152,-1.9938965};
+			angles[]={-0,0.68173152,0};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+		};
+		id=575;
+		type="Land_BagFence_Long_F";
+	};
+	class Item7
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={2.7744141,1.1457601,-1.9997559};
+			angles[]={0,0.68173176,0};
+		};
+		side="Empty";
+		class Attributes
+		{
+		};
+		id=576;
+		type="Land_BagFence_Long_F";
+		atlOffset=0.72644854;
+	};
+	class Item8
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={2.78125,1.5967569,-1.9987793};
+			angles[]={0,0.68173176,0};
+		};
+		side="Empty";
+		class Attributes
+		{
+		};
+		id=577;
+		type="Land_BagFence_Long_F";
+		atlOffset=1.1774454;
+	};
+};
