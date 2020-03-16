@@ -4,6 +4,8 @@ Arma 3 Server configurations
 ## First Step
 
 [[Basic](https://community.bistudio.com/wiki/Arma_3_Dedicated_Server)]
+[[Steamcmd](https://developer.valvesoftware.com/wiki/SteamCMD#Linux)]
+
 
 ## Server configuration
 Most important commands like: #restart oder #shutdown
