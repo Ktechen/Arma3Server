@@ -1,7 +1,7 @@
 # Arma3Server
 Arma 3 Server configurations
 
-## Start-Up
+## First Step
 
 [[Basic](https://community.bistudio.com/wiki/Arma_3_Dedicated_Server)]
 
